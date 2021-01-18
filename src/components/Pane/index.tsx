@@ -1,7 +1,8 @@
 import * as React from 'react';
 import { useMergeClasses } from '../../hooks/useMergeClasses';
 import { useEffect, useMemo, useRef, useState } from 'react';
-import styled, { css } from 'styled-components';
+import styled from '@emotion/styled';
+import { css } from '@emotion/react';
 import { SplitType } from '../SplitPane/index';
 
 const DEFAULT_COLLAPSE_TRANSITION_TIMEOUT = 500;
